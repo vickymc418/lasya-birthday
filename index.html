@@ -2,66 +2,204 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>For Lasya ❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050719">
+<title>For Lasya ✨ | A Galaxy Birthday Surprise</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#09040b;color:white;font-family:Georgia,serif;overflow-x:hidden}
-body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 20% 20%,#ff5a9a33,transparent 30%),radial-gradient(circle at 80% 70%,#8a5cff33,transparent 30%),linear-gradient(135deg,#180712,#050308 60%,#160817)}
-.screen{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:25px}.card{width:min(920px,94vw);padding:38px 24px;text-align:center;border-radius:30px;background:#ffffff0d;border:1px solid #ffffff22;backdrop-filter:blur(12px);box-shadow:0 20px 80px #0009}.hidden{display:none!important}
-.fade{animation:fade 1s}.small{letter-spacing:4px;text-transform:uppercase;color:#ffb5d1;font-size:12px}
-h1{font-size:clamp(42px,9vw,82px);color:#ffe0ec;text-shadow:0 0 28px #ff5a9a88;margin:15px 0}h2{font-size:clamp(25px,5vw,42px)}
-p{font-size:19px;line-height:1.85;color:#f3e5eb}button{border:0;border-radius:999px;padding:15px 28px;margin:12px 5px;color:#fff;font-weight:bold;font-size:16px;cursor:pointer;background:linear-gradient(90deg,#ff4f9a,#9c5cff);box-shadow:0 8px 25px #ff50a044}
-.gift{font-size:90px;animation:bob 1.5s infinite}.hero{width:min(360px,80vw);margin:15px auto;padding:7px;border-radius:27px;background:linear-gradient(135deg,#ffd1e1,#a47cff,#ffd1e1)}.hero img{width:100%;display:block;border-radius:21px;max-height:60vh;object-fit:cover}
-#typed{min-height:95px}.cursor{animation:blink .7s infinite}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:15px}.memory{border-radius:20px;overflow:hidden;background:#0005}.memory img{width:100%;height:240px;object-fit:cover;display:block}.memory p{font-size:14px;margin:0;padding:10px}
-.letter{text-align:left;background:#0005;border:1px solid #ffffff18;border-radius:20px;padding:25px}.letter p{font-size:18px}.phone{width:min(330px,85vw);margin:auto;padding:18px;border:7px solid #292929;border-radius:35px;background:#050505}.notif{background:white;color:#222;padding:16px;border-radius:16px;text-align:left}.notif b{color:#e91e63}
-.finalheart{font-size:110px;animation:heart 1.2s infinite}.float{position:fixed;bottom:-40px;animation:float 6s linear forwards;z-index:20}.confetti{position:fixed;top:-20px;width:9px;height:14px;z-index:30;animation:fall 4s linear forwards}
-.music{position:fixed;right:15px;bottom:15px;width:52px;height:52px;padding:0;margin:0;z-index:50}
-@keyframes fade{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:none}}@keyframes bob{50%{transform:translateY(-12px)}}@keyframes blink{50%{opacity:0}}@keyframes heart{50%{transform:scale(1.15)}}@keyframes float{to{transform:translateY(-115vh) rotate(25deg);opacity:0}}@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:0}}
+:root{--pink:#ff83d1;--blue:#7be7ff;--gold:#ffe6a7;--glass:rgba(14,18,53,.68)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#030512;color:#fff;font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+#space{position:fixed;inset:0;width:100%;height:100%;z-index:-3;display:block}
+.aurora{position:fixed;inset:-20%;z-index:-2;pointer-events:none;background:radial-gradient(ellipse at 20% 25%,#6a35ff25,transparent 32%),radial-gradient(ellipse at 78% 35%,#ff4cb725,transparent 28%),radial-gradient(ellipse at 50% 90%,#00bde825,transparent 35%);filter:blur(24px);animation:aurora 14s ease-in-out infinite alternate}
+@keyframes aurora{to{transform:translate3d(3%, -2%,0) scale(1.08);filter:blur(35px) hue-rotate(25deg)}}
+.screen{min-height:100svh;display:flex;align-items:center;justify-content:center;padding:28px 16px;position:relative}
+.hidden{display:none!important}
+.card{width:min(960px,96vw);padding:clamp(22px,4vw,42px);text-align:center;border:1px solid #b8d9ff3d;border-radius:28px;background:linear-gradient(145deg,rgba(20,25,65,.76),rgba(7,9,30,.72));box-shadow:0 20px 80px #0008, inset 0 0 35px #91aaff0b;backdrop-filter:blur(16px);animation:appear .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes appear{from{opacity:0;transform:translateY(26px) scale(.97)}to{opacity:1;transform:none}}
+.eyebrow{font:600 11px/1.6 system-ui,sans-serif;letter-spacing:4px;text-transform:uppercase;color:#b9c9ff}
+h1{font-size:clamp(42px,9vw,88px);line-height:1.02;margin:14px 0;color:#fff0fa;text-shadow:0 0 18px #ff8bd688,0 0 50px #8a7dff55}
+h2{font-size:clamp(26px,5vw,44px);margin:12px 0 20px;color:#f6edff}
+p{font-size:clamp(16px,2.5vw,19px);line-height:1.8;color:#e3e8ff}
+button{border:1px solid #ffffff55;border-radius:999px;padding:14px 24px;margin:8px 5px;color:white;font-size:15px;font-weight:700;cursor:pointer;background:linear-gradient(110deg,#9b5bff,#ed59b9 55%,#5ccfff);box-shadow:0 8px 30px #8d5bff35;transition:transform .25s,filter .25s}
+button:hover{transform:translateY(-3px) scale(1.025);filter:brightness(1.13)}
+button:focus-visible{outline:3px solid white;outline-offset:4px}
+button.secondary{background:#ffffff0b;box-shadow:none}
+.gift-stage{height:205px;display:grid;place-items:center;perspective:700px}
+.gift3d{font-size:110px;filter:drop-shadow(0 0 25px #ff5cde77);animation:giftfloat 3s ease-in-out infinite;transform-style:preserve-3d}
+@keyframes giftfloat{0%,100%{transform:translateY(0) rotateY(-10deg) rotateX(5deg)}50%{transform:translateY(-15px) rotateY(12deg) rotateX(-5deg)}}
+.hint{font:12px system-ui,sans-serif;color:#b9c4ed}
+.hero{width:min(300px,75vw);margin:18px auto 24px;padding:6px;border-radius:26px;background:linear-gradient(135deg,#79efff,#a18aff,#ff87d8,#ffe8aa);box-shadow:0 0 38px #b16bff33;transform-style:preserve-3d;animation:photohover 5s ease-in-out infinite}
+.hero img{display:block;width:100%;max-height:44vh;object-fit:cover;border-radius:21px}
+@keyframes photohover{0%,100%{transform:rotateY(-3deg) translateY(0)}50%{transform:rotateY(3deg) translateY(-7px)}}
+#typed{min-height:90px;max-width:750px;margin:15px auto}
+.cursor{animation:blink .7s infinite}@keyframes blink{50%{opacity:0}}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin-top:20px}
+.memory{overflow:hidden;border:1px solid #b8d9ff35;border-radius:19px;background:#070b25;box-shadow:0 10px 28px #0005;transition:transform .35s,box-shadow .35s;transform-style:preserve-3d}
+.memory:hover{transform:translateY(-7px) rotateY(4deg) rotateX(2deg);box-shadow:0 18px 38px #7c68ff25}
+.memory img{width:100%;height:235px;object-fit:cover;display:block}
+.memory p{font-size:14px;margin:0;padding:11px}
+.video-memory{max-width:760px;margin:34px auto 20px;padding:clamp(16px,3vw,26px);border:1px solid #b8d9ff4d;border-radius:24px;background:linear-gradient(145deg,#111738d9,#090d28e8);box-shadow:0 0 36px #8b70ff1c,inset 0 0 25px #8c9cff0b}
+.video-frame{padding:5px;border-radius:19px;background:linear-gradient(120deg,#7be7ff,#9b7bff,#ff83d1,#ffe6a7);box-shadow:0 0 30px #b47bff38;overflow:hidden}
+.video-frame video{display:block;width:100%;max-height:65vh;aspect-ratio:16/9;object-fit:contain;background:#02030a;border-radius:15px}
+.letter{max-width:760px;margin:20px auto 8px;text-align:left;padding:clamp(20px,4vw,32px);border:1px solid #b6c7ff30;border-radius:22px;background:linear-gradient(145deg,#ffffff0b,#8e7cff08);box-shadow:inset 0 0 30px #a4b9ff08}
+.letter p{font-size:clamp(16px,2.4vw,18px)}
+.note{font:12px/1.6 system-ui,sans-serif;color:#b4bee4}
+.final-heart{font-size:clamp(76px,15vw,130px);filter:drop-shadow(0 0 24px #ff58c7);animation:heartbeat 1.4s ease-in-out infinite}
+@keyframes heartbeat{0%,100%{transform:scale(1)}14%{transform:scale(1.1)}28%{transform:scale(1)}42%{transform:scale(1.08)}}
+.music{position:fixed;right:16px;bottom:16px;z-index:20;width:52px;height:52px;padding:0;margin:0;background:linear-gradient(135deg,#7b5cff,#ec59bb)}
+.topline{position:fixed;top:0;left:0;width:100%;height:2px;z-index:25;background:linear-gradient(90deg,#78eaff,#b98bff,#ff8edc);transform-origin:left;transform:scaleX(0);transition:transform .5s}
+.orb{position:fixed;z-index:-1;pointer-events:none;border-radius:50%;filter:blur(1px);box-shadow:0 0 25px currentColor;opacity:.7;animation:orbfloat 9s ease-in-out infinite}
+@keyframes orbfloat{50%{transform:translateY(-35px) translateX(18px) scale(1.15)}}
+#soundstatus{position:fixed;right:78px;bottom:25px;font:11px system-ui,sans-serif;color:#cbd5ff;z-index:20}
+@media(max-width:520px){.card{padding:24px 16px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.memory img{height:180px}.video-memory{margin-top:24px;padding:14px}.gift-stage{height:165px}.gift3d{font-size:90px}.eyebrow{letter-spacing:2.5px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
 </style>
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js"}}
+</script>
 </head>
 <body>
-<section class="screen" id="p1"><div class="card fade"><div class="small">A little surprise for you</div><div class="gift">🎁</div><h1>For Lasya ❤️</h1><p>There is something waiting inside...<br>Open it when you're ready. ✨</p><div id="count" style="font-size:50px;color:#ffd4e4">3</div><button onclick="openGift()">Open Your Surprise 💝</button><p style="font-size:13px;color:#bbaab5">For music, put your song in this folder and name it <b>birthday-music.mp3</b>.</p></div></section>
+<canvas id="space" aria-hidden="true"></canvas><div class="aurora"></div><div class="topline" id="topline"></div>
+<section class="screen" id="p1"><div class="card">
+  <div class="eyebrow">A tiny universe made just for you</div>
+  <div class="gift-stage"><div class="gift3d" aria-hidden="true">🎁</div></div>
+  <h1>For Lasya <span style="color:#ff9bdf">✦</span></h1>
+  <p>Somewhere among a billion stars, this little galaxy is shining just for you.</p>
+  <div id="count" style="font-size:clamp(34px,6vw,52px);color:#c6d5ff;text-shadow:0 0 22px #8f8dff">3</div>
+  <button onclick="openGift()">Enter Your Galaxy ✨</button>
+  <p class="hint">Turn your sound on for the full surprise. 🌌</p>
+</div></section>
 
-<section class="screen hidden" id="p2"><div class="card fade"><div class="small">Today is all about you</div><div class="hero"><img src="photo5.jpeg"></div><h1>Happy Birthday, Lasya! 🎂</h1><h2>✨ You deserve a beautiful day ✨</h2><p id="typed"></p><button onclick="show('p3')">See Your Memories 📸</button></div></section>
+<section class="screen hidden" id="p2"><div class="card">
+  <div class="eyebrow">The stars are celebrating you</div>
+  <div class="hero"><img src="photo5.jpeg" alt="A special memory" onerror="this.style.display='none'"></div>
+  <h1>Happy Birthday,<br>Lasya! 🎂</h1>
+  <h2>You're a little bit of magic ✨</h2>
+  <p id="typed"></p>
+  <button onclick="show('p3')">Travel Through Our Memories 📸</button>
+</div></section>
 
-<section class="screen hidden" id="p3"><div class="card fade"><div class="small">Little memories, big feelings</div><h2>📸 A Few Moments ❤️</h2><div class="gallery">
-<div class="memory"><img src="photo1.jpeg"><p>That smile ❤️</p></div>
-<div class="memory"><img src="photo2.jpeg"><p>Those eyes ✨</p></div>
-<div class="memory"><img src="photo3.jpeg"><p>A beautiful moment 🌸</p></div>
-<div class="memory"><img src="photo4.jpeg"><p>One more memory 💕</p></div>
-<div class="memory"><img src="photo5.jpeg"><p>My favourite smile ❤️</p></div>
-</div><button onclick="show('p4')">There Is More... 💌</button></div></section>
+<section class="screen hidden" id="p3"><div class="card">
+  <div class="eyebrow">Five stars, five memories</div><h2>Our Little Memory Galaxy 💫</h2>
+  <p>Every picture is a tiny star in this universe of memories.</p>
+  <div class="gallery">
+    <div class="memory"><img src="photo1.jpeg" alt="Memory one"><p>That smile ❤️</p></div>
+    <div class="memory"><img src="photo2.jpeg" alt="Memory two"><p>Those eyes ✨</p></div>
+    <div class="memory"><img src="photo3.jpeg" alt="Memory three"><p>A beautiful moment 🌸</p></div>
+    <div class="memory"><img src="photo4.jpeg" alt="Memory four"><p>One more memory 💕</p></div>
+    <div class="memory"><img src="photo5.jpeg" alt="Memory five"><p>My favourite smile ❤️</p></div>
+  </div>
+  <div class="video-memory">
+    <div class="eyebrow">A little memory, just for you</div>
+    <h2>Our Special Memory 🎬✨</h2>
+    <p>Some moments deserve to be replayed. Press play when you're ready. 💖</p>
+    <div class="video-frame"><video controls playsinline preload="metadata" poster="photo5.jpeg" aria-label="A special birthday memory video">
+      <source src="lasya-video.mp4" type="video/mp4">
+      Sorry, your browser cannot play this video.
+    </video></div>
+    <p class="note">Tip: tap the video’s play button to watch with sound.</p>
+  </div>
+  <button onclick="show('p4')">Follow the Starlight 💌</button>
+</div></section>
 
-<section class="screen hidden" id="p4"><div class="card fade"><div class="small">A message from my heart</div><h2>Lasya ❤️</h2><div class="letter">
-<p>Ninna hesaru kelidaga nanage gothillade smile barutte.</p>
-<p>Ninna jothe iruva prati ondu moment nanage special. ✨</p>
-<p><b>Ninna aa kannu… ninna aa smile… ayooo, I always love it. ❤️</b></p>
-<p>Ninu kelbodu, “Hostel alli nanu nenapagidre en maadtira?” antha… En gotha, ninna nenapu bandre saaku, summane kunthalli ninna neneyutta irtini. 🥹❤️</p>
-<p>Ninna nenape yella kade… yella yochne ninna bagge… kanasallu nine… yellallu nine… <b>Ninu saaku, Ammu.</b> ❤️</p>
-<p>Thumba nenapagtiya… adralu nanu nan phone-na eshtu check maadtha irtini gotha? 😂 “Nanna sweety call maadidalo eno?” antha prati sala phone check maadtirtini. 📱❤️</p>
-<p>Ayyo Ammu… ninna bagge heltha hodre saakagalla. <b>Ninna bagge helakke words saalalla.</b> ❤️</p>
-</div><button onclick="show('p5')">One More Page →</button></div></section>
+<section class="screen hidden" id="p4"><div class="card">
+  <div class="eyebrow">A message beyond the stars</div><h2>Lasya ❤️</h2>
+  <div class="letter">
+    <p>Ninna hesaru kelidaga nanage gothillade smile barutte.</p>
+    <p>Ninna jothe iruva prati ondu moment nanage special. ✨</p>
+    <p><b>Ninna aa kannu… ninna aa smile… ayooo, I always love it. ❤️</b></p>
+    <p>Ninu kelbodu, “Hostel alli nanu nenapagidre en maadtira?” antha… En gotha, ninna nenapu bandre saaku, summane kunthalli ninna neneyutta irtini. 🥹❤️</p>
+    <p>Ninna nenape yella kade… yella yochne ninna bagge… kanasallu nine… yellallu nine… <b>Ninu saaku, Ammu.</b> ❤️</p>
+    <p>Thumba nenapagtiya… adralu nanu nan phone-na eshtu check maadtha irtini gotha? 😂 “Nanna sweety call maadidalo eno?” antha prati sala phone check maadtirtini. 📱❤️</p>
+    <p>Ayyo Ammu… ninna bagge heltha hodre saakagalla. <b>Ninna bagge helakke words saalalla.</b> ❤️</p>
+  </div>
+  <button onclick="show('p5')">One More Page →</button>
+</div></section>
 
-<section class="screen hidden" id="p5"><div class="card fade"><div class="small">Still my favourite notification...</div><div class="phone"><div style="color:#aaa;text-align:center">9:07 PM</div><br><div class="notif"><b>Lasya ❤️</b><br>1 new message<br><br>Heyyy 😊</div></div><div class="letter">
-<p><b>Still, you're my favourite notification. 📱❤️</b></p>
-<p>Ninna message bandaga baruva aa smile bere yav notification inda baralla.</p>
-<p><b>Ninna happiness nododu nanage tumba important.</b> Ninu happy idre nanagu somewhere olagade tumba happiness irutte. ❤️</p>
-<p>Life yelli karedoydaroo, ninna life beautiful agirbeku, ninna dreams ella nanasagbeku, ninna face mele ee smile heegeye irbeku. 🌸✨</p>
-<p><b>I promise you… nan thara, nim appa amma bitre bere yaru ninna estu ista padala, Ammu. 😊❤️</b></p>
-<p><b>“Naanu ninnannu forever love maadtini.” ❤️</b></p>
-</div><button onclick="show('p6');celebrate()">Open Final Surprise 🎆</button></div></section>
+<section class="screen hidden" id="p5"><div class="card">
+  <div class="eyebrow">Still my favourite notification...</div>
+  <div style="width:min(320px,85vw);margin:24px auto;padding:17px;border:2px solid #b7c8ff66;border-radius:28px;background:linear-gradient(145deg,#141936,#050713);box-shadow:0 0 38px #8a76ff22">
+    <div style="color:#9da8d5;text-align:center;font:12px system-ui,sans-serif">9:07 PM · A little notification from the universe</div>
+    <div style="margin-top:18px;padding:18px;border-radius:17px;background:#f6f5ff;color:#17152b;text-align:left;font:15px/1.6 system-ui,sans-serif"><b style="color:#d52b89">Lasya ❤️</b><br>1 new message<br><br>Heyyy 😊</div>
+  </div>
+  <div class="letter">
+    <p><b>Still, you're my favourite notification. 📱❤️</b></p>
+    <p>Ninna message bandaga baruva aa smile bere yav notification inda baralla.</p>
+    <p><b>Ninna happiness nododu nanage tumba important.</b> Ninu happy idre nanagu somewhere olagade tumba happiness irutte. ❤️</p>
+    <p>Life yelli karedoydaroo, ninna life beautiful agirbeku, ninna dreams ella nanasagbeku, ninna face mele ee smile heegeye irbeku. 🌸✨</p>
+    <p><b>I promise you… nan thara, nim appa amma bitre bere yaru ninna estu ista padala, Ammu. 😊❤️</b></p>
+    <p><b>“Naanu ninnannu forever love maadtini.” ❤️</b></p>
+  </div>
+  <button onclick="show('p6');celebrate()">Open the Final Galaxy 🎆</button>
+</div></section>
 
-<section class="screen hidden" id="p6"><div class="card fade"><div class="small">One last wish for you</div><div class="finalheart">❤️</div><h1>Happy Birthday, Lasya! 🎂</h1><p><b>Ninna life alli baruva prati dina ivattiginta innu beautiful agirali. 🌸</b></p><p>May you always smile, dream big, and have beautiful memories to look back on. ✨</p><h2>Still my favourite notification. 📱❤️</h2><h2>Always special. 🌸</h2><p><b>I Love You, Ammu ❤️</b></p><button onclick="location.reload()">Replay 🔄</button></div></section>
+<section class="screen hidden" id="p6"><div class="card">
+  <div class="eyebrow">One last wish for you</div><div class="final-heart">💖</div>
+  <h1>Happy Birthday,<br>Lasya!</h1>
+  <p><b>Ninna life alli baruva prati dina ivattiginta innu beautiful agirali. 🌸</b></p>
+  <p>May you always smile, dream big, and have beautiful memories to look back on. ✨</p>
+  <h2>Still my favourite notification. 📱❤️</h2><h2>Always special. 🌌</h2>
+  <p><b>I Love You, Ammu ❤️</b></p>
+  <button onclick="location.reload()">Replay the Galaxy 🔄</button>
+</div></section>
 
-<button class="music" id="mb" onclick="music()">🎵</button><audio id="audio" src="birthday-music.mp3" loop></audio>
-<script>
-const msg="May your birthday be filled with laughter, beautiful memories, and all the happiness you deserve. Keep smiling, keep shining, and enjoy every little moment today. ❤️";let i=0;
-function openGift(){show('p2');document.getElementById('audio').play().catch(()=>{});type();celebrate()}
-function type(){let x=document.getElementById('typed');if(i<msg.length){x.innerHTML=msg.slice(0,i+1)+'<span class="cursor">|</span>';i++;setTimeout(type,30)}else x.textContent=msg}
-function show(id){document.querySelectorAll('.screen').forEach(x=>x.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');window.scrollTo(0,0)}
-function music(){let a=document.getElementById('audio');if(a.paused){a.play();document.getElementById('mb').textContent='🔊'}else{a.pause();document.getElementById('mb').textContent='🎵'}}
-function celebrate(){for(let i=0;i<90;i++){let c=document.createElement('div');c.className='confetti';c.style.left=Math.random()*100+'vw';c.style.background=['#ff4f9a','#ffd166','#9c5cff','#fff','#67e8f9'][Math.floor(Math.random()*5)];c.style.animationDelay=Math.random()*1.5+'s';document.body.appendChild(c);setTimeout(()=>c.remove(),5500)}}
-setInterval(()=>{if(!document.getElementById('p1').classList.contains('hidden'))return;let h=document.createElement('div');h.className='float';h.textContent=['❤️','💖','💕','✨','🌸'][Math.floor(Math.random()*5)];h.style.left=Math.random()*100+'vw';h.style.fontSize=20+Math.random()*20+'px';document.body.appendChild(h);setTimeout(()=>h.remove(),6500)},700);
-let n=3;let t=setInterval(()=>{document.getElementById('count').textContent=n>0?n:'❤️';n--;if(n<0)clearInterval(t)},700);
+<button class="music" id="mb" aria-label="Toggle birthday music" onclick="music()">♫</button><span id="soundstatus">Music</span>
+<audio id="audio" src="birthday-music.mp3" loop preload="none"></audio>
+
+<script type="module">
+import * as THREE from 'three';
+const canvas=document.querySelector('#space');
+let renderer,scene,camera,stars,planet,ring,heartSprites=[];
+try{
+  scene=new THREE.Scene();
+  camera=new THREE.PerspectiveCamera(65,innerWidth/innerHeight,.1,1200);
+  camera.position.z=85;
+  renderer=new THREE.WebGLRenderer({canvas,alpha:true,antialias:innerWidth>700,powerPreference:'low-power'});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,1.6));
+  renderer.setSize(innerWidth,innerHeight);
+  const count=innerWidth<600?900:1800, positions=new Float32Array(count*3), colors=new Float32Array(count*3);
+  for(let i=0;i<count;i++){
+    positions[i*3]=(Math.random()-.5)*340;
+    positions[i*3+1]=(Math.random()-.5)*220;
+    positions[i*3+2]=(Math.random()-.5)*360;
+    const c=new THREE.Color().setHSL(.56+Math.random()*.23,.45,.58+Math.random()*.4);
+    colors[i*3]=c.r;colors[i*3+1]=c.g;colors[i*3+2]=c.b;
+  }
+  const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.BufferAttribute(positions,3));geo.setAttribute('color',new THREE.BufferAttribute(colors,3));
+  stars=new THREE.Points(geo,new THREE.PointsMaterial({size:.8,vertexColors:true,transparent:true,opacity:.9,sizeAttenuation:true}));scene.add(stars);
+  const planetGeo=new THREE.SphereGeometry(10,40,40);
+  const planetMat=new THREE.MeshStandardMaterial({color:0x5444aa,emissive:0x25105b,emissiveIntensity:.7,roughness:.72,metalness:.2});
+  planet=new THREE.Mesh(planetGeo,planetMat);planet.position.set(27,7,-35);scene.add(planet);
+  ring=new THREE.Mesh(new THREE.TorusGeometry(14,.12,8,120),new THREE.MeshBasicMaterial({color:0xb8a6ff,transparent:true,opacity:.75}));ring.position.copy(planet.position);ring.rotation.set(1.1,.2,.2);scene.add(ring);
+  scene.add(new THREE.AmbientLight(0x9baaff,1.6));
+  const light=new THREE.PointLight(0x85dcff,90,140);light.position.set(10,20,20);scene.add(light);
+  const light2=new THREE.PointLight(0xff64c7,70,100);light2.position.set(-25,-10,15);scene.add(light2);
+  let pointerX=0,pointerY=0;addEventListener('pointermove',e=>{pointerX=(e.clientX/innerWidth-.5)*2;pointerY=(e.clientY/innerHeight-.5)*2},{passive:true});
+  const clock=new THREE.Clock();
+  function animate(){
+    requestAnimationFrame(animate);
+    const t=clock.getElapsedTime();
+    stars.rotation.y=t*.008;stars.rotation.x=Math.sin(t*.05)*.025;
+    planet.rotation.y=t*.12;ring.rotation.z=t*.1;
+    camera.position.x+=(pointerX*3-camera.position.x)*.018;
+    camera.position.y+=(-pointerY*2-camera.position.y)*.018;
+    camera.lookAt(0,0,0);renderer.render(scene,camera);
+  }
+  animate();
+  addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setPixelRatio(Math.min(devicePixelRatio,1.6));renderer.setSize(innerWidth,innerHeight)});
+}catch(err){console.warn('3D background unavailable; the birthday page will still work.',err);canvas.style.display='none'}
 </script>
-</body></html>
+<script>
+const msg="May your birthday be filled with laughter, beautiful memories, and all the happiness you deserve. Keep smiling, keep shining, and enjoy every little moment today. ❤️";
+let typedIndex=0,typeStarted=false;
+function openGift(){show('p2');const a=document.getElementById('audio');a.play().then(()=>{document.getElementById('mb').textContent='♫';document.getElementById('soundstatus').textContent='Music on'}).catch(()=>{document.getElementById('soundstatus').textContent='Tap ♫ for music'});if(!typeStarted){typeStarted=true;typeMessage()}celebrate()}
+function typeMessage(){const el=document.getElementById('typed');if(typedIndex<msg.length){el.innerHTML=msg.slice(0,typedIndex+1)+'<span class="cursor">|</span>';typedIndex++;setTimeout(typeMessage,28)}else el.textContent=msg}
+function show(id){document.querySelectorAll('.screen').forEach(x=>x.classList.add('hidden'));const target=document.getElementById(id);target.classList.remove('hidden');target.querySelector('.card').style.animation='none';requestAnimationFrame(()=>target.querySelector('.card').style.animation='');window.scrollTo({top:0,behavior:'smooth'});document.getElementById('topline').style.transform='scaleX('+(Number(id.slice(1))-1)/5+')'}
+function music(){const a=document.getElementById('audio'),b=document.getElementById('mb'),s=document.getElementById('soundstatus');if(a.paused){a.play().then(()=>{b.textContent='♫';s.textContent='Music on'}).catch(()=>{s.textContent='Tap again to play'})}else{a.pause();b.textContent='♪';s.textContent='Music off'}}
+function celebrate(){const colors=['#ff83d1','#ffe6a7','#9d92ff','#7be7ff','#ffffff'];for(let i=0;i<100;i++){const c=document.createElement('i');c.style.cssText=`position:fixed;top:-12px;left:${Math.random()*100}vw;width:${5+Math.random()*7}px;height:${8+Math.random()*10}px;border-radius:2px;background:${colors[Math.floor(Math.random()*colors.length)]};z-index:40;pointer-events:none;animation:confettiFall ${3+Math.random()*2}s linear ${Math.random()}s forwards`;document.body.appendChild(c);setTimeout(()=>c.remove(),6000)}}
+const style=document.createElement('style');style.textContent='@keyframes confettiFall{to{transform:translateY(110vh) rotate(800deg);opacity:0}}';document.head.appendChild(style);
+let n=3;const countEl=document.getElementById('count');const countdown=setInterval(()=>{if(n>1){n--;countEl.textContent=n}else{countEl.textContent='✦';clearInterval(countdown)}},750);
+</script>
+</body>
+</html>
